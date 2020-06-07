@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth !important;
+}
 .page_topline {
     position: relative;
     z-index: 1001;
@@ -55,4 +58,10 @@
 }
 .carousel-item img{
     max-height: 100%
+}
+.media img{
+    max-width: 100%;
+}
+.about_cards{
+    margin-right: 4rem;
 }

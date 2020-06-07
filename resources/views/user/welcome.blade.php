@@ -18,7 +18,7 @@
 
         @include('user.includes.carousel')
         @include('user.includes.intro')
-        @include('user.includes.about')
+{{--        @include('user.includes.about')--}}
         @include('user.includes.discover')
 
 
