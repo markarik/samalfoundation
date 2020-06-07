@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="{{asset('template/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('template/css/magnific-popup.css')}}">
     <link rel="stylesheet" href="{{asset('template/css/jquery-ui.css')}}">
-    <link rel="stylesheet" href="{{asset('template/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('template/css/owl.theme.default.min.css')}}">
+{{--    <link rel="stylesheet" href="{{asset('template/css/owl.carousel.min.css')}}">--}}
+{{--    <link rel="stylesheet" href="{{asset('template/css/owl.theme.default.min.css')}}">--}}
 
     <link rel="stylesheet" href="{{asset('template/css/bootstrap-datepicker.css')}}">
 
@@ -46,11 +46,11 @@
     </div>
 
 
-    <script src="{{asset('template/js/jquery-3.3.1.min.js')}}"></script>
+{{--    <script src="{{asset('template/js/jquery-3.3.1.min.js')}}"></script>--}}
     <script src="{{asset('template/js/jquery-ui.js')}}"></script>
     <script src="{{asset('template/js/popper.min.js')}}"></script>
     <script src="{{asset('template/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('template/js/owl.carousel.min.js')}}"></script>
+{{--    <script src="{{asset('template/js/owl.carousel.min.js')}}"></script>--}}
     <script src="{{asset('template/js/jquery.magnific-popup.min.js')}}"></script>
     <script src="{{asset('template/js/jquery.sticky.js')}}"></script>
     <script src="{{asset('template/js/jquery.waypoints.min.js')}}"></script>

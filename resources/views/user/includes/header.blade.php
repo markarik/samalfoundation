@@ -25,18 +25,23 @@
             <div class="site-logo">
                 <a href="#" class="text-black"><span class="text-primary">Samal Foundation</span></a>
             </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ml-auto">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
 
-            <nav class="site-navigation text-center ml-auto" role="navigation">
 
-                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                    <li><a href="#home-section" class="nav-link ">Home</a></li>
-                    <li><a href="#about-section" class="nav-link">About</a></li>
-                    <li><a href="#discover-section" class="nav-link">Discover</a></li>
-                    <li><a href="#donate-section" class="nav-link">Donate</a></li>
-                    <li><a href="#donate-section" class="nav-link">Gallery</a></li>
-                    <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
-                </ul>
+                        <a class="nav-item nav-link active" href="#home-section">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#about-section" >About</a>
+                        <a class="nav-item nav-link" href="#discover-section">Discover</a>
+                        <a class="nav-item nav-link" href="#donate-section" >Donate</a>
+                        <a class="nav-item nav-link" href="#donate-section">Gallery</a>
+                        <a class="nav-item nav-link" href="#blog-section">Blog</a>
+                        <a class="nav-item nav-link" href="#contact-section">Contact</a>
+                    </div>
+                </div>
             </nav>
 
 
