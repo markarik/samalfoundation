@@ -14,6 +14,8 @@
 
         @include('user.includes.header')
 
+
+
         @include('user.includes.carousel')
         @include('user.includes.intro')
         @include('user.includes.about')
