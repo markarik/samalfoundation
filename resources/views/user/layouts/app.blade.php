@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+{{--    <link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
 
 
     <link rel="stylesheet" href="{{asset('template/css/bootstrap.min.css')}}">
@@ -33,12 +33,14 @@
     <link rel="stylesheet" href="{{asset('template/css/aos.css')}}">
 
     <link rel="stylesheet" href="{{asset('template/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/mine.css')}}">
 </head>
 <body style="overflow-x: hidden">
     <div id="app">
 
 
-        <main class="py-4">
+        <main class="py-">
+
             @yield('content')
         </main>
     </div>
