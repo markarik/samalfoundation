@@ -25,10 +25,11 @@
         <div class="site-section bg-image overlay"
              style="background-image: url('{{asset('template/images/hero_1_no-text.jpg')}}');" id="donate-section">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-5 text-center">
+{{--                <div class="row align-items-center justify-content-center">--}}
+                <div class="row ">
+                    <div class="col-lg-11 text-center d-flex">
                         <h2 class="text-white mb-4">Make A Donation Now! You May Change Lives Forever</h2>
-                        <p><a href="#" class="btn btn-primary px-4 py-3 btn-block">Donate Now</a></p>
+                        <p class="ml-5"><a href="#" class="btn btn-primary px-4 py-3 btn-block">Donate Now</a></p>
                     </div>
                 </div>
             </div>
